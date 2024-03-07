@@ -7,7 +7,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            Naples Pizza Careers
+            Naples Pizza
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
@@ -18,18 +18,18 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About
+                <NavLink className="nav-link" to="/blog">
+                  Careers
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
-                  Current Openings
+                <NavLink className="nav-link" to="/about">
+                  Contact Us
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
-                  Contact Us
+                  Apply Now!
                 </NavLink>
               </li>
             </ul>
