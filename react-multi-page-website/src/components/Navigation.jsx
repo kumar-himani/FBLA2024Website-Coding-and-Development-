@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <nav className="navbar navbar-expand custom-navbar">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
             Naples Pizza
@@ -36,6 +36,19 @@ function Navigation() {
           </div>
         </div>
       </nav>
+      <style>
+        {`
+          .custom-navbar {
+            background-color: #40180F;
+          }
+          .custom-navbar .navbar-nav .nav-link {
+            color: white;
+          }
+          .custom-navbar .navbar-brand {
+            color: white;
+          }
+        `}
+      </style>
     </div>
   );
 }

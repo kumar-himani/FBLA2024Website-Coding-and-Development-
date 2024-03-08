@@ -27,7 +27,7 @@ function Home() {
       <div className="container" style={{ position: 'left', zIndex: 2, paddingTop: '25rem' }}>
         <div className="row" style={{ display: 'flex' }}>
           <div className="col-lg-10 offset-lg-1">
-            <h2 className="font-weight-light" style={{ fontSize: '2.5rem', fontStyle: 'italic' }}>Our Story</h2>
+          <h2 className="font-weight-bold our-story-heading">Our Story</h2>
             <span className="font-italic" style={{ fontSize: '1.2rem', display: 'flex', alignItems: 'center' }}>
               At Naples Pizza, our story is one of passion, dedication, and family values. Since 1995, we've been serving the Farmington community with delicious Neapolitan-style pizza, calzones, and more. What started as a small takeout store has grown into a beloved family-friendly restaurant. Our commitment to quality is unwavering, with the freshest ingredients and homemade pizza dough crafted daily. Join us at Naples Pizza, where every meal is made with love and served with a smile.
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnwC43fJA4XwWGHO4CUT77oITbwpKAvSuNFA&usqp=CAU" alt="Pizza" style={{ marginLeft: '1rem' }} />
@@ -56,6 +56,13 @@ function Home() {
 
         .font-italic {
           font-style: italic;
+        }
+
+        .our-story-heading {
+          font-size: 2.5rem;
+          font-style: italic;
+          font-weight: bold;
+          font color: #40180F;
         }
       `}</style>
     </div>
