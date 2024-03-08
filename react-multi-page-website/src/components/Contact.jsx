@@ -127,13 +127,26 @@ const ApplyNow = () => {
               onChange={(e) => setCoverLetter(e.target.files[0])}
             />
           </div>
+  
+          <div className="form-group form-check">
+            <input
+              type="checkbox"
+              className="form-check-input"
+              id="termsAndConditions"
+              checked={termsAndConditions}
+              onChange={(e) => setTermsAndConditions(e.target.checked)}
+            />
+            <label className="form-check-label" htmlFor="termsAndConditions">
+              I agree to the Terms and Conditions
+            </label>
+          </div>
+  
           <button type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>
       </div>
     </div>
-  )
-}
-
+  );
+  }
 export default ApplyNow;
