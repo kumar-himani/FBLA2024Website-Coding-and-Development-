@@ -413,6 +413,13 @@ const ApplyNow = () => {
           <button type="submit" className="btn btn-primary">
             Submit
           </button>
+          <hr/>
+          <hr/>
+          <hr/>
+          <hr/>
+          <hr/>
+          <hr/>
+          <hr/>
 
         </div>
     </form>
