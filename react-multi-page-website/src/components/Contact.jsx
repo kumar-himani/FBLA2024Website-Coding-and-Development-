@@ -201,14 +201,9 @@ const ApplyNow = () => {
           </div>
           <div className="form-group">
           <label htmlFor="physicallyAble">Are you physically able to stand for long periods of time, bend, twist and lift up to 40lbs?</label>
-          <select
-            className="form-control"
-            id="physicallyAble"
-            value={physicallyAble}
-            onChange={(e) => setPhysicallyAble(e.target.value)}
-          >
-                      <div className="form-group">
-          <label htmlFor="position">Position you are applying for (check all that interest you)</label>
+                      <div className="form-group"></div>
+            <label htmlFor="position">Position you are applying for (check all that interest you)</label>
+          </div>
           <div className="form-check">
             <input
               className="form-check-input"
@@ -309,7 +304,7 @@ const ApplyNow = () => {
               checked={positions.includes("Prep Cook")}
               onChange={(e) => handlePositionChange("Prep Cook", e.target.checked)}
             />
-            <label className="form-
+            <label className="form-label"></label>
             <div className="form-group">
             <label htmlFor="availability">Availability</label>
             <textarea
@@ -413,17 +408,17 @@ const ApplyNow = () => {
             <label className="form-check-label" htmlFor="termsAndConditions">
               I agree to the Terms and Conditions
             </label>
+
           </div>
           <button type="submit" className="btn btn-primary">
             Submit
           </button>
-    </div>
+
+        </div>
+    </form>
   </div>
   </div>
-  </div>
-  </form>
-  </select>
-);
+ );
 }
 
 
