@@ -27,7 +27,7 @@ function Posts() {
             <div className="card">
               <img
                 className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7PJmLi6nlUn6MGp3fRPG0mAZ5vOTA3Gqdg&usqp=CAU"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAZ_vwIsochgFkbA0-6dkV8W2hFLtbnr-kug&usqp=CAU"
                 alt="Benefits"
               />
               <div className="card-body">

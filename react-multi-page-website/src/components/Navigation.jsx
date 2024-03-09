@@ -39,7 +39,7 @@ function Navigation() {
       <style>
         {`
           .custom-navbar {
-            background-color: #40180F;
+            background-color: #AF672D;
           }
           .custom-navbar .navbar-nav .nav-link {
             color: white;
