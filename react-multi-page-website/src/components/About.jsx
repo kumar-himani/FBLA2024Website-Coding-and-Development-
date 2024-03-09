@@ -6,15 +6,15 @@ function Contact() {
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
-            <h1 class="font-weight-light">Contact Us!</h1>
-            <p>
+            <h1 class="font-weight-light" style={{ color: '#58483A' }}>Contact Us!</h1>
+            <p style={{ color: '#58483A' }}>
               <strong>Address:</strong> 838 Farmington Ave, Farmington, CT 06032
             </p>
-            <p>
+            <p style={{ color: '#58483A' }}>
               <strong>Phone:</strong> (860) 674-8876
             </p>
-            <p>
-              <strong>Email:</strong> <a href="mailto:info@naplespizza.com">naplesapizza@gmail.com</a>
+            <p style={{ color: '#58483A' }}>
+              <strong>Email:</strong> <a href="mailto:info@naplespizza.com" style={{ color: '#90A74C' }}>naplesapizza@gmail.com</a>
             </p>
             <form>
               <div class="form-group">
@@ -29,7 +29,7 @@ function Contact() {
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" style={{ backgroundColor: '#90A74C', color: 'white' }}>Submit</button>
             </form>
           </div>
           <div class="col-lg-5">
