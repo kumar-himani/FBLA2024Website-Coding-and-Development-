@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const ApplyNow = () => {
+  // State variables to store user input
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -11,7 +12,7 @@ const ApplyNow = () => {
   const [driversLicense, setDriversLicense] = useState("");
   const [physicallyAble, setPhysicallyAble] = useState("");
   const [interestedIn, setInterestedIn] = useState("");
-  const [positions, setPositions] = useState([]);
+  const [positions, setPositions] = useState([]); // Array to store selected positions
   const [availability, setAvailability] = useState("");
   const [startDate, setStartDate] = useState("");
   const [desiredPay, setDesiredPay] = useState("");
@@ -20,16 +21,17 @@ const ApplyNow = () => {
   const [references, setReferences] = useState("");
   const [reason, setReason] = useState("");
   const [hobbies, setHobbies] = useState("");
-  const [draft, setDraft] = useState(false);
-  const [termsAndConditions, setTermsAndConditions] = useState(false);
-  const [resume, setResume] = useState(null);
-  const [coverLetter, setCoverLetter] = useState(null);
+  const [draft, setDraft] = useState(false); // Flag to indicate if the form is a draft
+  const [termsAndConditions, setTermsAndConditions] = useState(false); // Flag to indicate if the user accepted terms and conditions
+  const [resume, setResume] = useState(null); // State variable to store resume file
+  const [coverLetter, setCoverLetter] = useState(null); // State variable to store cover letter file
 
+  // Function to handle position checkbox changes
   const handlePositionChange = (position, isChecked) => {
     if (isChecked) {
-      setPositions([...positions, position]);
+      setPositions([...positions, position]); // Add the position to the positions array if it's checked
     } else {
-      setPositions(positions.filter((p) => p !== position));
+      setPositions(positions.filter((p) => p !== position)); // Remove the position from the positions array if it's unchecked
     }
   };
 
