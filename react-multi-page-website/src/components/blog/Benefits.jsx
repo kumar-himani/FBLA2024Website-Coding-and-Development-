@@ -9,9 +9,9 @@ function Benefits() {
   }, [postSlug]);
 
   return (
-    <div className="home">
-      <div class="container">
-        <h1 className="mt-5">This is a Post Title</h1>
+    <div className="home1">
+      <div class="container1">
+        <h1 className="mt-5">This is Post Title</h1>
         <h6 className="mb-5">The post slug is, {postSlug}</h6>
         <p>
           Hola benefits.

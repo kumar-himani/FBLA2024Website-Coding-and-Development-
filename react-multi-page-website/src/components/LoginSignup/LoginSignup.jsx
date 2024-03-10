@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './LoginSignup.css'
 
 import user_icon from '../Assets/person.png'
@@ -10,7 +10,7 @@ const LoginSignup = () => {
    const [action,setAction] = useState("Sign Up");
 
     return (
-        <div className='container'>
+        <div className='containerlogin'>
          <div className="header">
           <div className="text">{action}</div>
           <div className="underline"></div>

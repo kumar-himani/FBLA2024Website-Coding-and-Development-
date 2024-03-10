@@ -9,12 +9,12 @@ function Statistics() {
   }, [postSlug]);
 
   return (
-    <div className="home">
-      <div class="container">
+    <div className="home2">
+      <div class="container2">
         <h1 className="mt-5">This is a Post Title</h1>
         <h6 className="mb-5">The post slug is, {postSlug}</h6>
         <p>
-          Hola benefits.
+          Hola benefit
         </p>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
