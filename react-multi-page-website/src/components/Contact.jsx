@@ -103,7 +103,7 @@ const ApplyNow = () => {
  return (
   <div className="apply-now">
     <div className="container">
-      <h1 className="text-center">Apply Now</h1>
+    <h1 className="text-center" style={{ color: '#886839', paddingTop: '3rem' }}>Apply Now</h1>
       <form onSubmit={(e) => handleSubmit(e)}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
@@ -200,9 +200,9 @@ const ApplyNow = () => {
           </select>
           </div>
           <div className="form-group">
-          <label htmlFor="physicallyAble">Are you physically able to stand for long periods of time, bend, twist and lift up to 40lbs?</label>
+          <label htmlFor="physicallyAble"></label>
                       <div className="form-group"></div>
-            <label htmlFor="position">Position you are applying for (check all that interest you)</label>
+          <label htmlFor="position">Position you are applying for (check all that interest you)</label>
           </div>
           <div className="form-check">
             <input
@@ -250,7 +250,7 @@ const ApplyNow = () => {
               value="Host/ess"
               id="positionHostess"
               checked={positions.includes("Host/ess")}
-              nChange={(e) => handlePositionChange("Host/ess", e.target.checked)}
+              onChange={(e) => handlePositionChange("Host/ess", e.target.checked)}
             />
             <label className="form-check-label" htmlFor="positionHostess">
               Host/ess
@@ -304,7 +304,10 @@ const ApplyNow = () => {
               checked={positions.includes("Prep Cook")}
               onChange={(e) => handlePositionChange("Prep Cook", e.target.checked)}
             />
-            <label className="form-label"></label>
+            <label className="form-check-label" htmlFor="positionPrepCook">
+              Prep Cook
+            </label>
+            <hr/>
             <div className="form-group">
             <label htmlFor="availability">Availability</label>
             <textarea

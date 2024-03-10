@@ -77,7 +77,7 @@ function Home() {
       <h2 className="our-story-heading" style={{ color: '#AF672D', fontSize: '2rem', textAlign: 'center', paddingTop: '1rem', paddingBottom: '1rem'}}>John Smith</h2>
       <h3 className="font-weight-bold" style={{ textAlign: 'center', fontSize: '1.4rem', paddingBottom: '1rem' }}>Head Chef</h3>
       <p className="font-italic" style={{ textAlign: 'center', fontSize: '1.2rem', paddingBottom: '3rem', color: '58483A'  }}>
-        Working at Naples Pizza feels like being part of a big, happy family! The support and camaraderie among the staff create a positive and rewarding work environment.
+        "Working at Naples Pizza feels like being part of a big, happy family! The support and camaraderie among the staff create a positive and rewarding work environment."
       </p>
     </div>
     <div className="col-lg-4">
@@ -85,7 +85,7 @@ function Home() {
       <h2 className="our-story-heading" style={{ color: '#AF672D', fontSize: '2rem', textAlign: 'center', paddingTop: '1rem', paddingBottom: '1rem' }}>Emily Johnson</h2>
       <h3 className="font-weight-bold" style={{ textAlign: 'center', fontSize: '1.4rem', paddingBottom: '1rem' }}>Customer Service Representative</h3>
       <p className="font-italic" style={{ textAlign: 'center', fontSize: '1.2rem', paddingBottom: '3rem'  }}>
-        I love being part of the Naples Pizza team! The friendly atmosphere and opportunities for growth make it a great place to work!
+        "I love being part of the Naples Pizza team! The friendly atmosphere and opportunities for growth make it a great place to work!"
       </p>
     </div>
     <div className="col-lg-4">
@@ -93,7 +93,7 @@ function Home() {
       <h2 className="our-story-heading" style={{ color: '#AF672D', fontSize: '2rem', textAlign: 'center', paddingTop: '1rem', paddingBottom: '1rem' }}>Michael Lee</h2>
       <h3 className="font-weight-bold" style={{ textAlign: 'center', fontSize: '1.4rem', paddingBottom: '1rem'}}>Delivery Driver</h3>
       <p className="font-italic" style={{ textAlign: 'center', fontSize: '1.2rem', paddingBottom: '3rem' }}>
-        Naples Pizza values its employees and recognizes hard work. It's rewarding to be part of a company that cares about its team members' well-being and success.
+        "Naples Pizza values its employees and recognizes hard work. It's rewarding to be part of a company that cares about its team members' well-being and success."
       </p>
     </div>
     <div class="rectangle-with-text">Where 90% of employees stay happy, and 95% stay satisfied</div>
@@ -104,19 +104,19 @@ function Home() {
     <div className="col-lg-4 text-center" style={{ paddingBottom: '1rem' }}>
       <h2 className="our-story-heading" style={{ color: '#58483A', paddingBottom: '1rem' }}>Pizza Chef</h2>
       <p style={{ fontSize: '1.1rem', marginBottom: '1rem', paddingBottom: '1rem' }}>Craft artisanal pizzas using the freshest ingredients and traditional Neapolitan techniques. As a Pizza Chef at Naples Pizza, you'll showcase your culinary skills and creativity to deliver mouthwatering pizzas that delight our customers.</p>
-      <a href="/contact" style={{ backgroundColor: '#597718', color: 'white', padding: '0.7rem 8rem', textDecoration: 'none', paddingBottom: '1rem' }}>Apply Now</a>
+      <a href="/contact" style={{ backgroundColor: '#E4B455', color: 'white', padding: '0.7rem 8rem', textDecoration: 'none', paddingBottom: '1rem' }}>Apply Now</a>
       <p style={{ fontStyle: 'italic', marginTop: '1rem', paddingTop: '1rem'  }}>Join 6 others to create wonderful pizzas! 4 people have applied for this position in the last 10 days.</p>
     </div>
     <div className="col-lg-4 text-center" style={{ paddingBottom: '1rem' }}>
       <h2 className="our-story-heading" style={{ color: '#58483A', paddingBottom: '1rem' }}>Customer Service Representative</h2>
       <p style={{ fontSize: '1.1rem', marginBottom: '1rem', paddingBottom: '1rem' }}>Provide exceptional service and hospitality to our guests, ensuring a positive dining experience from start to finish. As a Customer Service Representative at Naples Pizza, you'll interact with customers, take orders, and assist with inquiries to ensure their satisfaction.</p>
-      <a href="/contact" style={{ backgroundColor: '#597718', color: 'white', padding: '0.7rem 8rem', textDecoration: 'none', paddingBottom: '1rem' }}>Apply Now</a>
+      <a href="/contact" style={{ backgroundColor: '#E4B455', color: 'white', padding: '0.7rem 8rem', textDecoration: 'none', paddingBottom: '1rem' }}>Apply Now</a>
       <p style={{ fontStyle: 'italic', marginTop: '1rem', paddingTop: '1rem'  }}>Join 17 others and help grow our customers! 7 people have applied for this position in the last 10 days.</p>
     </div>
     <div className="col-lg-4 text-center" style={{ paddingBottom: '1rem' }}>
       <h2 className="our-story-heading" style={{ color: '#58483A', paddingBottom: '1rem' }}>Kitchen Staff</h2>
       <p style={{ fontSize: '1.1rem', marginBottom: '1rem', paddingBottom: '1rem' }}>Work alongside our talented culinary team to prepare and assemble a variety of delicious dishes, including pizzas, calzones, panini, and more. As part of the kitchen staff at Naples Pizza, you'll contribute to the seamless operation of our kitchen and help maintain our high standards of food quality and presentation.</p>
-      <a href="/contact" style={{ backgroundColor: '#597718', color: 'white', padding: '0.7rem 8rem', textDecoration: 'none', paddingBottom: '1rem' }}>Apply Now</a>
+      <a href="/contact" style={{ backgroundColor: '#E4B455', color: 'white', padding: '0.7rem 8rem', textDecoration: 'none', paddingBottom: '1rem' }}>Apply Now</a>
       <p style={{ fontStyle: 'italic', marginTop: '1rem', paddingTop: '1rem' }}>Join 3 others and help support our chefs! 2 people have applied for this position in the last 10 days.</p>
     </div>
   </div>
