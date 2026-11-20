@@ -9,7 +9,7 @@ function Footer() {
             Copyright &copy; Himani and Nikita FBLA 2024
           </p>
           <p className="m-0 text-center text-white" style={{ fontSize: "0.8rem", opacity: 0.85 }}>
-            Student project for FBLA 2024. Not affiliated with Naples Pizza.
+            Student project for FBLA 2024. Not the official Naples Pizza job site; name used with permission.
           </p>
         </div>
       </footer>
