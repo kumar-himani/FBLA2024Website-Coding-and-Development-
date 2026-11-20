@@ -54,7 +54,7 @@ function Home() {
     <span style={{ width: '100%', fontSize: '1.2rem', alignItems: 'center', marginTop: '10rem', fontStyle: 'italic', fontWeight: 'bold', color: '#AF672D'}}>
       Our commitment to quality shines through in every dish with fresh ingredients and daily-made signature pizza dough.
     </span>
-    <hr class="solid-line" />
+    <hr className="solid-line" />
   </div>
 </div>
       </div>
@@ -66,7 +66,7 @@ function Home() {
             Join us on our newly added patio for outdoor dining, and experience the warmth and hospitality of Naples Pizza. Explore exciting career opportunities and discover the opportunities that await you at Naples Pizza. Whether you're passionate about crafting delicious pizzas or providing exceptional customer service, we have a place for you on our team!
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5oLL78X8l0B9bNT9NqvgdS5f1ohPq9dgklg&usqp=CAU" alt="Pizza" style={{ marginLeft: '1rem' }} />
             </span>
-            <hr class="solid-line" />
+            <hr className="solid-line" />
           </div>
         </div>
       </div>
@@ -96,9 +96,9 @@ function Home() {
         "Naples Pizza values its employees and recognizes hard work. It's rewarding to be part of a company that cares about its team members' well-being and success."
       </p>
     </div>
-    <div class="rectangle-with-text">Where 90% of employees stay happy, and 95% stay satisfied</div>
+    <div className="rectangle-with-text">Where 90% of employees stay happy, and 95% stay satisfied</div>
   </div>
-  <h2 class="most-popular-positions">Our Most Popular Positions!</h2>
+  <h2 className="most-popular-positions">Our Most Popular Positions!</h2>
   <div className="container" style={{ position: 'right', zIndex: 2, paddingTop: '3rem', paddingBottom: '5rem' }}>
   <div className="row" style={{ display: 'flex', flexWrap: 'wrap' }}>
     <div className="col-lg-4 text-center" style={{ paddingBottom: '1rem' }}>

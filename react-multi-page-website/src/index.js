@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css"; // import the CSS file for styling
 
 // import the necessary components for routing
@@ -10,8 +10,8 @@ import {
   Navigation,
   Footer,
   Home,
-  About,
-  Contact,
+  ContactUs,
+  ApplyNow,
   Blog,
   Posts,
   JobOpenings,
@@ -25,7 +25,8 @@ import Benefits from "./components/blog/Benefits";
 import Statistics from "./components/blog/Statistics";
 
 // Render the Router component to the root element of the HTML document
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <Router>
     {/* Render the Navigation component at the top of the page */}
     <Navigation />
@@ -33,10 +34,10 @@ ReactDOM.render(
     <Routes>
       {/* The homepage route */}
       <Route path="/" element={<Home />} />
-      {/* The about page route */}
-      <Route path="/about" element={<About />} />
-      {/* The contact page route */}
-      <Route path="/contact" element={<Contact />} />
+      {/* The contact us page route */}
+      <Route path="/contact" element={<ContactUs />} />
+      {/* The apply now page route */}
+      <Route path="/apply" element={<ApplyNow />} />
       {/* The login/signup page route */}
       <Route path="/login" element={<LoginSignup />} />
       {/* The blog page route */}
@@ -53,6 +54,5 @@ ReactDOM.render(
     </Routes>
     {/* Render the Footer component at the bottom of the page */}
     <Footer />
-  </Router>,
-  document.getElementById("root")
+  </Router>
 );

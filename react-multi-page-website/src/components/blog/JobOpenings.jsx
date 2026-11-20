@@ -8,11 +8,6 @@ function JobOpenings() {
     // Fetch post using the postSlug
   }, [postSlug]);
 
-  const handleMenuClick = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    section.scrollIntoView({ behavior: "smooth" });
-  };
-
   const [selectedMenu, setSelectedMenu] = React.useState(null);
 
   const toggleMenu = (menuId) => {

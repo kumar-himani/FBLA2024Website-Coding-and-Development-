@@ -1,20 +1,16 @@
 import React, { useState } from "react";
-import { useParams } from "react-router";
 
 function Statistics() {
-  let { postSlug } = useParams();
   const [education, setEducation] = useState(0);
   const [experience, setExperience] = useState(0);
   const [skills, setSkills] = useState(0);
   const [qualificationPercentage, setQualificationPercentage] = useState(0);
   const [jobYieldRate, setJobYieldRate] = useState(0);
   const [driversLicense, setDriversLicense] = useState(false);
-  const [physicallyAble, setPhysicallyAble] = useState(false);
-  const [interestedPositions, setInterestedPositions] = useState([]);
-  const [availability, setAvailability] = useState("");
   const [startDate, setStartDate] = useState("");
   const [desiredPay, setDesiredPay] = useState(0);
   const [highestEducation, setHighestEducation] = useState("");
+  const [jobExperience, setJobExperience] = useState("");
   const [references, setReferences] = useState("");
   const [reason, setReason] = useState("");
   const [hobbies, setHobbies] = useState("");
@@ -29,18 +25,9 @@ function Statistics() {
     setJobYieldRate(Math.round(totalQualification * 100));
   };
 
-  const handleInterestedPositionsChange = (e) => {
-    const position = e.target.value;
-    if (interestedPositions.includes(position)) {
-      setInterestedPositions(interestedPositions.filter((p) => p !== position));
-    } else {
-      setInterestedPositions([...interestedPositions, position]);
-    }
-  };
-
   return (
     <div className="home2">
-      <div class="container2">
+      <div className="container2">
         <hr/>
         <h2 className="mb-5">The job qualification calculation is based on the following criteria:</h2>
         <div className="row" style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -103,7 +90,7 @@ function Statistics() {
             <p>
               Please list any/all previous relevant job experience:
             </p>
-            <textarea value={references} onChange={e => setReferences(e.target.value)} />
+            <textarea value={jobExperience} onChange={e => setJobExperience(e.target.value)} />
           </div>
         </div>
         <div className="row">

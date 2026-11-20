@@ -8,6 +8,9 @@ function Footer() {
           <p className="m-0 text-center text-white">
             Copyright &copy; Himani and Nikita FBLA 2024
           </p>
+          <p className="m-0 text-center text-white" style={{ fontSize: "0.8rem", opacity: 0.85 }}>
+            Student project for FBLA 2024. Not affiliated with Naples Pizza.
+          </p>
         </div>
       </footer>
     </div>
