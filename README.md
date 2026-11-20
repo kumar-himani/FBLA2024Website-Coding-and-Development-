@@ -4,9 +4,10 @@ A multi-page React website for a local pizza restaurant's hiring process. Visito
 
 Built by [Himani Kumar](https://github.com/kumar-himani) and [Nikita Nayunipati](https://github.com/nikitavn) for the FBLA 2024 Website Coding & Development event.
 
-> **Student project.** This site was made for an FBLA competition with permission to use the restaurant's name. It is not affiliated with or run by Naples Pizza, and the forms don't send anything to the restaurant.
+> **Student project.** This is not the official Naples Pizza job site. It was built for an FBLA competition, and the restaurant's name is used with permission. The forms don't send anything to Naples Pizza.
 
-<!-- Screenshots: drag your images in here -->
+<img width="3416" height="1776" alt="image" src="https://github.com/user-attachments/assets/e4a55a50-1315-4ef9-ac42-55495ff8dc72" />
+
 
 ## Features
 - **Careers page:** expandable job descriptions by department, plus a qualification calculator
