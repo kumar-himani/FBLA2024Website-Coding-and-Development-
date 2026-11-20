@@ -32,13 +32,13 @@ function Navigation() {
               </li>
               {/* Add a navbar item for the contact us page */}
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink className="nav-link" to="/contact">
                   Contact Us
                 </NavLink>
               </li>
               {/* Add a navbar item for the apply now page */}
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/apply">
                   Apply Now!
                 </NavLink>
               </li>
