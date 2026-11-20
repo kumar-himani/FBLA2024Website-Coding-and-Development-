@@ -91,11 +91,47 @@
     font-size: 19px;
     font-weight: 700;
     cursor: pointer;
+    border: none;
 }
 
+.submit:disabled{
+    opacity: 0.7;
+    cursor: wait;
+}
+
+/* The button for the mode you're not in is muted so it reads like an inactive tab. */
 .gray{
-    background: #597718;
-    color: #F9EEC9;
+    background: #EADBB4;
+    color: #597718;
+}
+
+.field-error{
+    margin: 8px 0 0 60px;
+    color: #770D15;
+    font-size: 15px;
+}
+
+.form-error{
+    margin: 20px 60px 0;
+    padding: 10px 14px;
+    background: #F9E0E0;
+    color: #770D15;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-message{
+    margin: 20px 60px 0;
+    color: #58483A;
+    font-size: 17px;
+    text-align: center;
+}
+
+.demo-note{
+    margin: 0 60px;
+    color: #886839;
+    font-size: 14px;
+    text-align: center;
 }
 
 .icon {
